@@ -86,4 +86,5 @@ public final class LazySingleton {
 #### Cons:  
 * The singleton pattern can mask bad design, for instance, when the components of the program know too much  
 about each other.  
-* The pattern requires special treatment in a multithreaded environment.
+* The pattern requires special treatment in a multithreaded environment.  
+* Difficult to unit test.
